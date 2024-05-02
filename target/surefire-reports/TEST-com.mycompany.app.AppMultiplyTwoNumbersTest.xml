@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -57,5 +57,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="testWithMaxIntegers" classname="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0">
+    <failure message="Incorrect multiplication result expected:&lt;4611686014132420609&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Incorrect multiplication result expected:<4611686014132420609> but was:<1>
+	at com.mycompany.app.AppMultiplyTwoNumbersTest.testWithMaxIntegers(AppMultiplyTwoNumbersTest.java:120)
+]]></failure>
+  </testcase>
+  <testcase name="testWithZero" classname="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0"/>
+  <testcase name="testWithPositiveAndNegativeNumbers" classname="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0"/>
+  <testcase name="testWithPositiveNumbers" classname="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0"/>
+  <testcase name="testWithNegativeNumbers" classname="com.mycompany.app.AppMultiplyTwoNumbersTest" time="0"/>
 </testsuite>

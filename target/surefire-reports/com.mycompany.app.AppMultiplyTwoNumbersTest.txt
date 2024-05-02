@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.AppMultiplyTwoNumbersTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.mycompany.app.AppMultiplyTwoNumbersTest
+testWithMaxIntegers  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect multiplication result expected:<4611686014132420609> but was:<1>
+	at com.mycompany.app.AppMultiplyTwoNumbersTest.testWithMaxIntegers(AppMultiplyTwoNumbersTest.java:120)
+
